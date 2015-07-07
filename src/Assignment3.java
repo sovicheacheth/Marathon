@@ -30,7 +30,7 @@ class Marathon {
 		//Compare runner, if faster make that lowest.
 		//If not do nothing.
 		for(int i=0; i<time.length;i++){
-			//When we get to fastest runner, bypass
+			//When we get to fastest runner, bypass it
 			if(i==location)
 				continue;
 			if(time[i]<runTime){
